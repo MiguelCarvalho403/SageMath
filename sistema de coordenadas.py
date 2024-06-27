@@ -1,4 +1,4 @@
-def coordenadas(ax_size = (-2,2), plane = False, opacity = 0.1):
+def coordenadas(ax_size = (-2,2), plane = False, opacity = 0.7):
     u, v = var('y, z')
     size = (ax_size[1] - ax_size[0])
     u_ = (u, ax_size[0], ax_size[1]) # dimensão dos eixos / planos
